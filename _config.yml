@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Gerald
+middle_name: Ek
+last_name: Hong Sheng
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -51,8 +51,9 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-bib_search: true
+#oringally both true
+socials_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -192,6 +193,16 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/news.md
+  - _pages/teaching.md
+  - _pages/people.md
+  - _pages/publications.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
+
+
 keep_files:
   - CNAME
   - .nojekyll
